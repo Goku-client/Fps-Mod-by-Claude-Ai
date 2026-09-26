@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "${version}",
+  "name": "FPS Boost",
+  "description": "Client-side rendering optimizations for better FPS: entity/particle culling, reduced render distance overhead, and smarter frustum checks.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fpsboost/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.fpsboost.FpsBoostClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
